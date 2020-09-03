@@ -215,7 +215,7 @@ dependencies {
     // to use a SNAPSHOT release instead of a stable release
     implementation (group: "io.github.jhipster", name: "jhipster-framework") {
         exclude group: "org.springframework", module: "spring-context-support"
-        
+
         exclude group: "org.springframework.boot", module: "spring-boot-autoconfigure"
         exclude group: "org.springframework.boot", module: "spring-boot-starter-aop"
         exclude group: "org.springframework.boot", module: "spring-boot-starter-web"
@@ -257,9 +257,6 @@ dependencies {
     implementation "io.micronaut.sql:micronaut-jdbc-hikari"
     implementation "io.micronaut.jmx:micronaut-jmx"
 
-    implementation "io.micrometer:micrometer-registry-prometheus"
-    implementation "io.micronaut.micrometer:micronaut-micrometer-core"
-    implementation "io.micronaut.micrometer:micronaut-micrometer-registry-prometheus"
     implementation "io.micronaut.data:micronaut-data-runtime:$micronaut_data_version"
     implementation ("io.micronaut.data:micronaut-data-hibernate-jpa:$micronaut_data_version") {
         exclude group: 'io.micronaut', module: 'micronaut-jdbc'
