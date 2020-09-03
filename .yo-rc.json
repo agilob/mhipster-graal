@@ -1,0 +1,50 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "mhip2",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "jwtSecretKey": "MjYyOTdiNDUyZTNjNjMzZWVmMTMxNWMxZmMzMWQ5MjZjMzhmZDNhZjFjZjZmNDM5MTc1NTYxODY3Y2IxYTEwMTE3MzRlMzI0ODdlMTQ2NDRiNjZhNTBhMjIyZWE2OTg5NTNlYTEzN2ZkZTMxMTFmY2RhNTQ3ZDI5MDYyMjVkNzc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1599154264849,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "0.4.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "0.4.0"
+      }
+    ]
+  }
+}
